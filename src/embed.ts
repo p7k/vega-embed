@@ -20,10 +20,10 @@ export const vega = vegaImport;
 export let vegaLite = vegaLiteImport;
 
 // For backwards compatibility with Vega-Lite before v4.
-const w = window as any;
-if (vegaLite === undefined && w['vl'] && w['vl'].compile) {
-  vegaLite = w['vl'];
-}
+// const w = window as any;
+// if (vegaLite === undefined && w['vl'] && w['vl'].compile) {
+//   vegaLite = w['vl'];
+// }
 
 export interface Actions {
   export?: boolean | { svg?: boolean; png?: boolean };
