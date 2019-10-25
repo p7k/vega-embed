@@ -1,5 +1,5 @@
 {
-  "name": "vega-embed",
+  "name": "@eidetiq/vega-embed",
   "version": "6.0.0",
   "description": "Publish Vega visualizations as embedded web components.",
   "keywords": [
@@ -11,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/vega/vega-embed.git"
+    "url": "http://github.com/p7k/vega-embed.git"
   },
   "author": {
     "name": "UW Interactive Data Lab",
